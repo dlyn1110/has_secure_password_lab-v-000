@@ -3,7 +3,8 @@ resources :users, only: [:new, :create]
 
 root 'application#welcome'
 get '/login' => 'sessions#new'
-post '/login' => 'sessions#create' 
+post '/login' => 'sessions#create'
+
   #   get 'products/:id' => 'catalog#view'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
